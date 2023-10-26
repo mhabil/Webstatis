@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Nasional Indonesia</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="Css/styleJS.css" />
+  </head>
+  <body>
+    <!-- Navbar START -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Galeri Nasional Indonesia</a>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#profil">Profil</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#services">Layanan</a>
+        <a href="#collection">Koleksi</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <!-- Hero Section START -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Kamu Pecinta Lukisan? Kamu Harus Berkunjung Ke GNI</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+          aperiam.
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section END -->
+
+    <!-- Profil Section START -->
+    <section id="profil" class="profil">
+      <h2><span>Profil</span> Galeri Nasional Indonesia</h2>
+
+      <div class="row">
+        <div class="profil-image">
+          <img src="image/profil_GNI.jpg" alt="profil GNI" />
+        </div>
+        <div class="content">
+          <p>
+            Galeri Nasional Indonesia merupakan museum seni rupa modern dan
+            kontemporer yang ada di Jakarta. GNI melaksanakan pengkajian,
+            pengumpulan, registrasi, perawatan, pengamanan, pameran dan
+            publikasi karya seni rupa berupa lukisan, sketsa, grafis, patung,
+            keramik, desain grafis, ilustrasi, fotografi, seni kriya, seni
+            instalasi, seni media, dan media alternatif lainnya yang dapat
+            dikategorikan sebagai seni rupa modern dan kontemporer.
+          </p>
+          <p>
+            Karya seni yang dikumpulkan dan dirawat GNI berasal atau terkumpul
+            dari Museum Nasional Indonesia; Direktorat Kesenian, Sekretariat
+            Direktorat Jenderal Kebudayaan; dan GNI. Karya-karya tersebut
+            merupakan hasil olah artistik seniman Indonesia dan mancanegara,
+            yang terdiri dalam berbagai ekspresi, bentuk, media, teknik dan
+            latar belakang seniman serta keunggulan karyanya.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Profil Section END -->
+
+    <!-- about Section START -->
+    <section class="about" id="about">
+      <h2>Tentang GNI</h2>
+      <div class="icon-about">
+        <a href="#" id="kanan"><i data-feather="chevron-right"></i></a>
+      </div>
+      <p>Penjelasan Tentang GNI</p>
+      <p id="sejarah" style="display: none">
+        Galeri Nasional Indonesia (GNI) merupakan museum seni rupa modern dan
+        kontemporer Indonesia di bawah naungan Direktorat Jenderal Kebudayaan,
+        Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi. GNI berdiri
+        pada 1998 berdasarkan surat persetujuan Menko Pegawasan Pembangunan dan
+        Pendayagunaan Aparatur Negara No. 34/MK.WASPAN/1998. Dilanjutkan dengan
+        ketetapan Kepmendikbud No.099a/0/1988, GNI kemudian diresmikan
+        operasionalnya pada 8 Mei 1999 oleh Menteri Pendidikan dan Kebudayaan
+        yang kala itu dijabat oleh Juwono Sudarsono. Gedung GNI yang berciri
+        khas arsitektural kolonial Belanda ini terletak di jantung ibu kota,
+        Jalan Medan Merdeka Timur No. 14 Jakarta Pusat (dulu Koningsplein Oost).
+      </p>
+      <button
+        type="button"
+        onclick="document.getElementById('sejarah').style.display='block'"
+      >
+        CLICK ME
+      </button>
+      <button
+        type="button"
+        onclick="document.getElementById('sejarah').style.display='none'"
+      ></button>
+    </section>
+    <!-- about Section END -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My JS -->
+    <script src="Js/script2.js"></script>
+  </body>
+</html>
