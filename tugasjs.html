@@ -85,7 +85,9 @@
     <section class="about" id="about">
       <h2>Tentang GNI</h2>
       <div class="icon-about">
-        <a href="#" id="kanan"><i data-feather="chevron-right"></i></a>
+        <a href="#" id="kanan" onclick="toggleParagraph(event)"
+          ><i data-feather="chevron-right"></i
+        ></a>
       </div>
       <p>Penjelasan Tentang GNI</p>
       <p id="sejarah" style="display: none">
@@ -100,18 +102,39 @@
         khas arsitektural kolonial Belanda ini terletak di jantung ibu kota,
         Jalan Medan Merdeka Timur No. 14 Jakarta Pusat (dulu Koningsplein Oost).
       </p>
-      <button
-        type="button"
-        onclick="document.getElementById('sejarah').style.display='block'"
-      >
-        CLICK ME
-      </button>
-      <button
-        type="button"
-        onclick="document.getElementById('sejarah').style.display='none'"
-      ></button>
     </section>
     <!-- about Section END -->
+
+    <!-- collectuion section START -->
+    <section id="koleksi" class="koleksi">
+      <h2><span>Koleksi</span> GNI</h2>
+      <div class="icon-collection">
+        <a href="#" id="kanan" onclick="toggleCollection(event)"
+          ><i data-feather="chevron-right"></i
+        ></a>
+      </div>
+      <div class="koleksi-image">
+        <img
+          src="image/garuda.jpg"
+          alt="koleksi1"
+          id="koleksi"
+          style="display: none"
+        />
+        <p id="koleksi" style="display: none">
+          Dalam lukisan ini, Abas menerapkan pola dasar geometrik untuk
+          mengabstraksikan bentuk burung garuda. Menjadi unik karena deformasi
+          bentuk garuda telah sedemikian jauh, sehingga yang lebih penting
+          adalah ekspresi berbagai unsur visual yang ada. Warna merah dengan
+          gradasi ke arah violet dan oranye memberi kekuatan sebagai latar
+          belakang yang ekspresif. Bentuk burung muncul lewat konstruksi
+          serpihan bidang dengan warna kuning dan hijau, diikat dengan tekstur
+          dan goresan kasar yang mencitrakan nafas primitif. Lukisan ini juga
+          seperti karya-karya Abas dalam periode itu, dipengaruhi oleh
+          sumbersumber visual dari berbagai patung etnis nusantara.
+        </p>
+      </div>
+    </section>
+    <!-- collectuion section END -->
 
     <!-- feather icons -->
     <script>

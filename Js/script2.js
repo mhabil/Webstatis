@@ -47,3 +47,29 @@ document.addEventListener("click", function (e) {
 //     sejarahParagraph.style.display = "block"; // Tampilkan paragraf jika sedang tersembunyi
 //   }
 // }
+
+function toggleParagraph(event) {
+  event.preventDefault();
+  const sejarahParagraph = document.getElementById("sejarah");
+  if (
+    sejarahParagraph.style.display === "none" ||
+    sejarahParagraph.style.display === ""
+  ) {
+    sejarahParagraph.style.display = "block";
+  } else {
+    sejarahParagraph.style.display = "none";
+  }
+}
+
+function toggleCollection(event) {
+  event.preventDefault();
+  const collectionpg = document.getElementById("koleksi");
+  if (
+    sejarahParagraph.style.display === "none" ||
+    sejarahParagraph.style.display === ""
+  ) {
+    sejarahParagraph.style.display = "block";
+  } else {
+    sejarahParagraph.style.display = "none";
+  }
+}
