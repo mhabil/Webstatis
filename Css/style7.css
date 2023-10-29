@@ -1,0 +1,135 @@
+:root {
+  --primary: #bb1020;
+  --bg: #010101;
+  --rtx: #76b900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  /* min-height: 5000px; */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  padding: 1.4rem 7%;
+  background-color: rgba(1, 1, 1, 0.8);
+  border-bottom: 1px solid #513c28;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+}
+
+.navbar .navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+
+/* judul */
+.judul {
+  padding: 8rem 7% 1.4rem;
+}
+
+.judul h1 {
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.judul .content h1 span {
+  color: #76b900;
+}
+
+/* sub 1 */
+.sub {
+  padding: 8rem 7% 1.4rem;
+}
+
+.sub .row .sub-image {
+  flex: 1 1 20rem;
+}
+
+.sub .row .sub-image img {
+  width: 640px;
+  height: 426px;
+}
+.sub .row .content p {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+
+/* sub 2 */
+ul.a {
+  list-style-type: square;
+}
+
+.sub .row .a {
+  margin-bottom: 0;
+  font-size: 1.4rem;
+}
+
+/* sub 3 */
+table,
+th,
+td {
+  border: 1px;
+}
+
+table {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  background-color: var(--rtx);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover {
+  color: turquoise;
+}
+
+footer .pembuat p {
+  font-size: 1rem;
+}
+
+footer .pembuat a {
+  color: turquoise;
+  font-weight: 700;
+}
