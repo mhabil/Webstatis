@@ -73,6 +73,30 @@ body {
   transform: scaleX(0.5);
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.8);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .navbar .navbar-extra a {
   color: #fff;
   margin: 0 0.5rem;
@@ -129,10 +153,8 @@ body {
   font-size: 1.6rem;
   margin-top: 1rem;
   line-height: 1.4;
-  /* font-weight: 100; */
+
   color: #fff;
-  /* text-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
-  mix-blend-mode: difference; */
 }
 
 /* list MERK section*/
@@ -232,10 +254,6 @@ body {
   width: 700px;
   padding: 30px;
   margin: 20px;
-  text-decoration: none;
-  color: #fff;
-  transform: scale(1);
-  transition: 0.2s linear;
 }
 
 .row .product-1 .harga {
@@ -250,11 +268,6 @@ body {
   top: 1.2rem;
 }
 
-.row .product-1:hover,
-.row .product-2:hover {
-  transform: scale(1.03);
-}
-
 /* produk 2 */
 .row .product-2 {
   position: absolute;
@@ -263,10 +276,6 @@ body {
   padding: 30px;
   margin-top: 1.2rem;
   margin-left: 47rem;
-  text-decoration: none;
-  color: #fff;
-  transform: scale(1);
-  transition: 0.2s linear;
 }
 
 .row .product-2 .harga-2 {
@@ -290,6 +299,10 @@ body {
   padding: 30px;
   margin: 20px;
   margin-top: 15rem;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1);
+  transition: 0.2s linear;
 }
 
 .row .product-3 .harga-3 {
@@ -463,4 +476,33 @@ body {
   margin-left: 28rem;
   top: 0;
   margin-top: 1.5rem;
+}
+
+.row .product-1,
+.row .product-2,
+.row .product-3,
+.row .product-4,
+.row .product-5,
+.row .product-6,
+.row .product-7,
+.row .product-8,
+.row .product-9,
+.row .product-10 {
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1);
+  transition: 0.2s linear;
+}
+
+.row .product-1:hover,
+.row .product-2:hover,
+.row .product-3:hover,
+.row .product-4:hover,
+.row .product-5:hover,
+.row .product-6:hover,
+.row .product-7:hover,
+.row .product-8:hover,
+.row .product-9:hover,
+.row .product-10:hover {
+  transform: scale(1.03);
 }
