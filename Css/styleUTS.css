@@ -20,7 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 3000px;
+  min-height: 4000px;
 }
 
 /* Navbar */
@@ -30,7 +30,7 @@ body {
   align-items: center;
   padding: 1.4rem 7%;
   background-color: rgba(1, 1, 1, 0.8);
-  border-bottom: 1px solid #513c28;
+  border-bottom: 1px solid var(--primary);
   position: fixed;
   top: 0;
   left: 0;
@@ -133,4 +133,334 @@ body {
   color: #fff;
   /* text-shadow: 1px 1px 3px rgba(1, 1, 3, 1);
   mix-blend-mode: difference; */
+}
+
+/* list MERK section*/
+.list-merk1 {
+  position: relative;
+}
+
+.centered-image img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.list-merk1-title,
+.list-merk1-paragraph {
+  position: absolute;
+  color: white;
+}
+
+.list-merk2-title,
+.list-merk2-paragraph {
+  position: absolute;
+  color: #010101;
+}
+
+.list-merk1-title,
+.list-merk2-title {
+  top: 30px;
+  left: 20rem;
+}
+
+.list-merk1-paragraph,
+.list-merk2-paragraph {
+  top: 65px;
+  left: 20rem;
+}
+
+.list-merk1 .border {
+  position: absolute;
+  top: 115px;
+  left: 20rem;
+}
+
+.list-merk1 .border a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.list-merk1 .border a:hover {
+  background-color: #333;
+}
+
+/* Harga Produk */
+.product {
+  padding: 8rem 7% 1.4rem;
+}
+
+.product h2 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.product .sub {
+  font-size: 1.5rem;
+  margin-bottom: 0.2;
+  margin-left: 2rem;
+  color: var(--primary);
+}
+
+.product .sub2 {
+  font-size: 1.5rem;
+  margin-top: 30rem;
+  margin-bottom: 0;
+  margin-left: 2rem;
+  color: var(--primary);
+}
+
+.row .product-1 h3,
+.row .product-2 h3,
+.row .product-3 h3,
+.row .product-4 h3,
+.row .product-5 h3,
+.row .product-7 h3,
+.row .product-6 h3,
+.row .product-8 h3,
+.row .product-9 h3,
+.row .product-10 h3 {
+  font-size: 2rem;
+}
+
+.row .product-1 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin: 20px;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1);
+  transition: 0.2s linear;
+}
+
+.row .product-1 .harga {
+  margin-top: 70px;
+}
+
+.row .product-1 .harga-image {
+  position: absolute;
+  height: 180px;
+  width: 450px;
+  margin-left: 15rem;
+  top: 1.2rem;
+}
+
+.row .product-1:hover,
+.row .product-2:hover {
+  transform: scale(1.03);
+}
+
+/* produk 2 */
+.row .product-2 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin-top: 1.2rem;
+  margin-left: 47rem;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(1);
+  transition: 0.2s linear;
+}
+
+.row .product-2 .harga-2 {
+  margin-top: 70px;
+}
+
+.row .product-2 .harga-image-2 {
+  position: absolute;
+  height: 310px;
+  width: 360px;
+  margin-left: 17.5rem;
+  top: 0;
+  margin-top: -3.5rem;
+}
+
+/* produk 3 */
+.row .product-3 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 15rem;
+}
+
+.row .product-3 .harga-3 {
+  margin-top: 70px;
+}
+
+.row .product-3 .harga-image-3 {
+  position: absolute;
+  height: 310px;
+  width: 360px;
+  margin-left: 19rem;
+  top: 0;
+  margin-top: -3.5rem;
+}
+
+/* produk 4 */
+.row .product-4 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin-top: 14.96rem;
+  margin-left: 47rem;
+}
+
+.row .product-4 .harga-4 {
+  margin-top: 70px;
+}
+
+.row .product-4 .harga-image-4 {
+  position: absolute;
+  height: 200px;
+  width: 360px;
+  margin-left: 19rem;
+  top: 0;
+}
+
+/* produk 5 */
+.row .product-5 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 2rem;
+}
+
+.row .product-5 .harga-5 {
+  margin-top: 70px;
+}
+
+.row .product-5 .harga-image-5 {
+  position: absolute;
+  height: 130px;
+  width: 130px;
+  margin-left: 30rem;
+  top: 0;
+  margin-top: 1.8rem;
+}
+
+/* produk 6 */
+.row .product-6 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin-top: 2rem;
+  margin-left: 47rem;
+}
+
+.row .product-6 .harga-6 {
+  margin-top: 70px;
+}
+
+.row .product-6 .harga-image-6 {
+  position: absolute;
+  height: 140px;
+  width: 140px;
+  margin-left: 29rem;
+  top: 0;
+  margin-top: 2rem;
+}
+
+/* produk 7 */
+.row .product-7 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 15.9rem;
+}
+
+.row .product-7 .harga-7 {
+  margin-top: 70px;
+}
+
+.row .product-7 .harga-image-7 {
+  position: absolute;
+  height: 135px;
+  width: 135px;
+  margin-left: 29.8rem;
+  top: 0;
+  margin-top: 1.8rem;
+}
+
+/* produk 8 */
+.row .product-8 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin-top: 15.9rem;
+  margin-left: 47rem;
+}
+
+.row .product-8 .harga-8 {
+  margin-top: 70px;
+}
+
+.row .product-8 .harga-image-8 {
+  position: absolute;
+  height: 160px;
+  width: 280px;
+  margin-left: 25rem;
+  top: 0;
+  margin-top: 1.5rem;
+}
+
+/* produk 9 */
+.row .product-9 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin: 20px;
+  margin-top: 29.8rem;
+}
+
+.row .product-9 .harga-9 {
+  margin-top: 70px;
+}
+
+.row .product-9 .harga-image-9 {
+  position: absolute;
+  height: 160px;
+  width: 280px;
+  margin-left: 25rem;
+  top: 0;
+  margin-top: 1.8rem;
+}
+
+/* produk 10 */
+.row .product-10 {
+  position: absolute;
+  background-color: #333;
+  width: 700px;
+  padding: 30px;
+  margin-top: 29.8rem;
+  margin-left: 47rem;
+}
+
+.row .product-10 .harga-10 {
+  margin-top: 70px;
+}
+
+.row .product-10 .harga-image-10 {
+  position: absolute;
+  height: 150px;
+  width: 180px;
+  margin-left: 28rem;
+  top: 0;
+  margin-top: 1.5rem;
 }
