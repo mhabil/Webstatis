@@ -20,7 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 4000px;
+  /* min-height: 4000px; */
 }
 
 /* Navbar */
@@ -506,4 +506,44 @@ body {
 .row .product-9:hover,
 .row .product-10:hover {
   transform: scale(1.03);
+}
+
+/* footer */
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 50rem;
+}
+
+footer .socials {
+  padding: 1rem 0;
+}
+
+footer .socials a {
+  color: #fff;
+  margin: 1rem;
+}
+
+footer .socials a:hover,
+footer .links a:hover {
+  color: turquoise;
+}
+
+footer .links {
+  margin-bottom: 1.4rem;
+}
+
+footer .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .pembuat {
+  font-size: 0.8rem;
+}
+
+footer .pembuat a {
+  color: turquoise;
+  font-weight: 700;
 }
