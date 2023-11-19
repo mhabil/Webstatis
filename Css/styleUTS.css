@@ -302,12 +302,8 @@ body {
   background-color: #333;
   width: 700px;
   padding: 30px;
-  margin: 20px;
+  margin-left: 1.3rem;
   margin-top: 15rem;
-  text-decoration: none;
-  color: #fff;
-  transform: scale(1);
-  transition: 0.2s linear;
 }
 
 .row .product-3 .harga-3 {
