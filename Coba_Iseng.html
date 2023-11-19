@@ -1,22 +1,70 @@
-<link rel="stylesheet" href="Css/styleUTS.css" />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
 
-<section class="artikel" id="artikel">
-  <h2>List Artikel</h2>
-  <div class="row">
-    <div class="list-merk1">
-      <div class="centered-image">
-        <img
-          src="image/list-nvidia.jpg"
-          alt="list-merk1"
-          class="list-merk1-image"
-        />
-        <div class="text-overlay">
-          <h3 class="list-merk1-title">GPU Nvidia</h3>
-          <p class="list-merk1-paragraph">
-            Seri GPU dari Nvidia untuk meningkatkan performa PC mu
-          </p>
-        </div>
-      </div>
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        overflow-x: hidden;
+        transition: 0.3s;
+        background-color: var(--primary);
+        color: #fff;
+        padding: 0;
+        list-style-type: none;
+      }
+
+      .sidebar li a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .sidebar li a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      #content {
+        padding: 10px;
+        margin-left: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="sidebar" class="sidebar">
+      <ul>
+        <li><a href="#produk">Produk</a></li>
+        <li><a href="#artikel">Artikel</a></li>
+      </ul>
     </div>
-  </div>
-</section>
+
+    <div id="content">
+      <!-- Konten web -->
+    </div>
+
+    <script>
+      const hamburgerMenu = document.getElementById("hamburger-menu");
+      const sidebar = document.getElementById("sidebar");
+
+      hamburgerMenu.addEventListener("click", () => {
+        sidebar.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
